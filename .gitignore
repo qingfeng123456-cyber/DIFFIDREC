@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local IDE/editor files
+.idea/
+.vscode/
+
+# Logs and runtime outputs
+logs/
+myckpt/
+*.log
+
+# Training data and generated artifacts
+RQVAE/dataset/
+RQVAE/rqvae_ckpt/
+*.pth
+*.pt
+*.npy
+
+# OS files
+.DS_Store
+Thumbs.db
