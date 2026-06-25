@@ -20,7 +20,6 @@ python -u main.py \
   --loss_type mse \
   --dist l2 \
   --device $DEVICE \
-  --kmeans_init True\
-  --data_path ../dataset/${DATASET}/${DATASET}_emb_256.npy \
+  --kmeans_init True \
+  --data_path ./dataset/${DATASET}/${DATASET}_emb_256.npy \
   --ckpt_dir ./rqvae_ckpt/${DATASET}
-
