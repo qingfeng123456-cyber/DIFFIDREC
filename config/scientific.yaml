@@ -10,7 +10,7 @@ code_num: 256
 code_length: 4
 
 # train
-epochs: 40
+epochs: 400
 lr_rec: 0.005
 lr_id: 0.0001
 weight_decay: 0.05
