@@ -293,7 +293,7 @@ class HierarchicalSemanticRefinementModule(nn.Module):
         self.multiscale_adapter = MultiScaleDiffusionAdapter(
             input_dim=hidden_size,
             output_dim=hidden_size,
-            hidden_dims=[hidden_size // 2, hidden_size, hidden_size],
+            hidden_dims=[hidden_size // 2, hidden_size, hidden_size * 2],
             num_steps=diffusion_steps,
             dropout=dropout,
         )
